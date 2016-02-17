@@ -9,7 +9,7 @@
     font-family: 'Open Sans Light', sans-serif;
     line-height:30px;
     background-color:#eeeeee;
-    height:350px;
+    height:550px;
     width:200px;
     float:left;
     padding:5px 15px;
@@ -18,7 +18,7 @@
 }
 #section {
     font-family: 'Open Sans Light', sans-serif;
-    width:350px;
+    width:550px;
     float:left;
     padding:10px 50px;
 }

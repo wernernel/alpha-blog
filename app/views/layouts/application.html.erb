@@ -2,17 +2,33 @@
 <html>
 <head>
   <title>AlphaBlog</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="header">
+<h1>Testing Ruby on Rails</h1>
+</div>
+
+<div id="nav">
+  <%= link_to 'Home', root_path %> <br>
+  <%= link_to 'About', about_path %> <br>
+  <%= link_to 'View Articles', articles_path %> <br>
+  <%= link_to 'Create New Article', new_article_path %> <br>
+</div>
+
+<div id="section">
   <% flash.each do |name, msg| %>
     <ul>
       <li><%= msg %></li>
     </ul>
   <% end %>
 <%= yield %>
+</div>
 
+<div id="footer">
+Copyright © rubyonrailssite
+</div>
 </body>
 </html>
