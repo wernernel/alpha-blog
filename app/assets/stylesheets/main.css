@@ -1,0 +1,32 @@
+#header {
+    font-family: 'Open Sans Light', sans-serif;
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    font-family: 'Open Sans Light', sans-serif;
+    line-height:30px;
+    background-color:#eeeeee;
+    height:350px;
+    width:200px;
+    float:left;
+    padding:5px 15px;
+    text-align:right;
+    font-weight:bold;
+}
+#section {
+    font-family: 'Open Sans Light', sans-serif;
+    width:350px;
+    float:left;
+    padding:10px 50px;
+}
+#footer {
+    font-family: 'Open Sans Light', sans-serif;
+    background-color:#9966ff;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
