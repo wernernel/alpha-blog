@@ -19,12 +19,8 @@
 </div>
 
 <div id="section">
-  <% flash.each do |name, msg| %>
-    <ul>
-      <li><%= msg %></li>
-    </ul>
-  <% end %>
-<%= yield %>
+  <%= render 'layouts/messages' %>
+  <%= yield %>
 </div>
 
 <div id="footer">
