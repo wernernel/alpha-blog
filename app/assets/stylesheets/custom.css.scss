@@ -50,12 +50,23 @@ $navbar-default-bg: white;
 }
 
 .article-actions {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
 .description {
   margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer {
