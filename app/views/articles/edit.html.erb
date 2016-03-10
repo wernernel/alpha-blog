@@ -2,6 +2,9 @@
 
 <%= render 'form' %>
 <br /><br /><br /><br />
-<center><%= link_to 'Delete this article', article_path(@article), method: :delete,
+
+<center>
+  <%= link_to 'Delete this article', article_path(@article), method: :delete,
                                   data: {confirm: "Are you sure want to delete this article?"},
-                                  class: "btn btn-xs btn-danger" %></center>
+                                  class: "btn btn-xs btn-danger" %>
+</center>

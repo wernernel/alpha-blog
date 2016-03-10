@@ -1,3 +1,4 @@
+<% if logged_in? %>
 <h1 align="center">All Users</h1>
 
 <div align="center">
@@ -17,5 +18,11 @@
 
   <% end %>
 <%= will_paginate %>
+
+<% else %>
+
+  <h2 align="center">- You must be logged in to view the Users of Alpha-Blog -</h2>
+
+<% end %>
 
 </div>
